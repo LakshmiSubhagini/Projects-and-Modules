@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main(){
+	int num[10],t;
+	scanf("%d",&t);
+	int i;
+	for(i=0;i<t;i++){
+	scanf("%d", &num[i]);} 
+	for(i=0;i<t;i++)
+	{
+		if(num[i]%2==0)
+		{
+			printf("YES\n");
+		}
+		else{
+			printf("NO\n");
+		}
+	}           
+}
